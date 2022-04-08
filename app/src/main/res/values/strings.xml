@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TecnoShop</string>
+    <string name="Title">TecnoShop</string>
+
+    <string name="eslogan">TecnoShop es una tienda movil donde encontraras lo que buscas en informatica. </string>
+    <string name="top">Top productos con descuentos</string>
+
+    <string name="categorias">Seleccion por categorias</string>
+</resources>

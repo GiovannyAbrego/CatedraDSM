@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "692142844998",
+    "project_id": "tecnoshop-af2a6",
+    "storage_bucket": "tecnoshop-af2a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692142844998:android:0382745b91701e45be2e47",
+        "android_client_info": {
+          "package_name": "com.example.tecnoshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692142844998-c3pfus1q17fr0i9q47hjj1veu7eif4h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVyqlL0UpBZKOYa7oHt4cHSNF5oNTnPXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692142844998-c3pfus1q17fr0i9q47hjj1veu7eif4h4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

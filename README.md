@@ -7,6 +7,8 @@ FM140272 - Kevin René Fuentes Molina
 HC180393 - Luis Henry Henríquez Cruz  
 HH182006 - Marco Antonio Hernández Hernández  
 HR132106 - Rodrigo Ernesto Hernández Rivas  
+# Video
+https://drive.google.com/drive/folders/1_pzcxsJwIX3lqJOB1Y_GKFvlPoNqWUuN?usp=sharing
 # MockUps
 https://drive.google.com/drive/folders/16K3xnf_ZQytYtzQzOKf1ujEJP498v_gW?usp=sharing
 # Trello

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TecnoShop</string>
+    <string name="index">Tu lugar ideal para comprar</string>
+    <string name="index_button">Registrarse</string>
+    <string name="index_login">Iniciar sesion</string>
+    <string name="olvide">olvide mi contraseña</string>
+    <string name="registrar">registrar cuenta</string>
+    <string name="crear">crear cuenta</string>
+    <string name="enviarCorreo">enviar correo</string>
+
+    <string name="invalid_mail">ingrese mail valido</string>
+    <string name="invalid_password">ingrese password mayor a 6 digitos</string>
+</resources>

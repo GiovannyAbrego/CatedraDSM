@@ -93,7 +93,9 @@ public class LonginActivity extends AppCompatActivity implements GoogleApiClient
 
     private void goToHome() {
 
+
         Intent i = new Intent(this, AdminActivity.class);
+
         i.putExtra("Mail", Txt_MailSesion.getText().toString());
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);

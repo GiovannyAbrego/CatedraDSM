@@ -1,32 +1,40 @@
 {
   "project_info": {
+
     "project_number": "66283931163",
     "project_id": "tecnoshop-38f6e",
     "storage_bucket": "tecnoshop-38f6e.appspot.com"
+
   },
   "client": [
     {
       "client_info": {
+
         "mobilesdk_app_id": "1:66283931163:android:46ec4c791be070b8bd1abe",
+
         "android_client_info": {
           "package_name": "com.example.tecnoshop"
         }
       },
       "oauth_client": [
         {
+
           "client_id": "66283931163-mupu54jcph3evc148vgrflj8uvmjohte.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
+
           "current_key": "AIzaSyDlipHtpuUsTUNF37OXLgwl0RJMV17WvHI"
+
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
+
               "client_id": "66283931163-mupu54jcph3evc148vgrflj8uvmjohte.apps.googleusercontent.com",
               "client_type": 3
             }
@@ -57,6 +65,7 @@
           "other_platform_oauth_client": [
             {
               "client_id": "66283931163-mupu54jcph3evc148vgrflj8uvmjohte.apps.googleusercontent.com",
+
               "client_type": 3
             }
           ]

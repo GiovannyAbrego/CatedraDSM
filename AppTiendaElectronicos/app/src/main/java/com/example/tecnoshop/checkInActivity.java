@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
+
 import android.widget.Button;
+
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -19,6 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class checkInActivity extends AppCompatActivity {
     EditText Txt_Mail, Txt_Password;
 
+
     private Button createAccountButton;
     private EditText InputMaill, InputPassword;
 
@@ -30,7 +33,6 @@ public class checkInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_in);
 
-
         firebaseAuth = FirebaseAuth.getInstance();
         awesomeValidation = new AwesomeValidation(ValidationStyle.BASIC);
         awesomeValidation.addValidation(this,R.id.Mail, Patterns.EMAIL_ADDRESS,R.string.invalid_mail);
@@ -39,8 +41,6 @@ public class checkInActivity extends AppCompatActivity {
         Txt_Mail = findViewById(R.id.Mail);
         Txt_Password = findViewById(R.id.PasswordSesion);
     }
-
-
 
     public void createAccount(View view){
         //Toast.makeText(this,"El campo [votos] no debe estar vacio", Toast.LENGTH_LONG).show();

@@ -17,5 +17,5 @@
     <string name="IngAdminNom">Nombre del producto</string>
     <string name="IngAdminDesc">Descripcion del producto</string>
     <string name="IngAdminPrec">Precio del producto</string>
-
+  
 </resources>

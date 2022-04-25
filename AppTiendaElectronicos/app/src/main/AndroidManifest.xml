@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TecnoShop">
         <activity
+
+            android:name=".AdminAddNewProductActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPaswordActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".AdminActivity"
+
             android:exported="false" />
         <activity
             android:name=".checkInActivity"

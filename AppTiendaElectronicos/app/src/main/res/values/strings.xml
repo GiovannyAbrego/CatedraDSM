@@ -8,6 +8,14 @@
     <string name="crear">crear cuenta</string>
     <string name="enviarCorreo">enviar correo</string>
 
+    <string name="Admin">Admin?</string>
+    <string name="NoAdmin">No Admin</string>
+
     <string name="invalid_mail">ingrese mail valido</string>
     <string name="invalid_password">ingrese password mayor a 6 digitos</string>
+
+    <string name="IngAdminNom">Nombre del producto</string>
+    <string name="IngAdminDesc">Descripcion del producto</string>
+    <string name="IngAdminPrec">Precio del producto</string>
+  
 </resources>

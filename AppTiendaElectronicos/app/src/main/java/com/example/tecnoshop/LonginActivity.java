@@ -29,7 +29,6 @@ public class LonginActivity extends AppCompatActivity implements GoogleApiClient
     private GoogleApiClient googleApiClient;
     public static final int SIGN_IN_CODE = 777;
 
-
     FirebaseAuth firebaseAuth;
     AwesomeValidation awesomeValidation;
 
@@ -45,7 +44,6 @@ public class LonginActivity extends AppCompatActivity implements GoogleApiClient
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_longin);
-
 
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -95,7 +93,9 @@ public class LonginActivity extends AppCompatActivity implements GoogleApiClient
 
     private void goToHome() {
 
-        Intent i = new Intent(this, HomeActivity.class);
+
+        Intent i = new Intent(this, AdminActivity.class);
+
         i.putExtra("Mail", Txt_MailSesion.getText().toString());
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);

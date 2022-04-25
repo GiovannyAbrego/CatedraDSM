@@ -39,8 +39,8 @@ public class IndexActivity extends AppCompatActivity {
 
 
     private void goToHome() {
+        Intent i = new Intent(this, AdminActivity.class);
 
-        Intent i = new Intent(this, HomeActivity.class);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);
 

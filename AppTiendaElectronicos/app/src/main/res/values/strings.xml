@@ -17,5 +17,35 @@
     <string name="IngAdminNom">Nombre del producto</string>
     <string name="IngAdminDesc">Descripcion del producto</string>
     <string name="IngAdminPrec">Precio del producto</string>
-  
+
+
+     ///////Menu/////////
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="Cart">Cart</string>
+    <string name="Profile">Profile</string>
+
+    ////////home////////////
+    <string name="accesories">Computers and accesories</string>
+    <string name="laptop1">Laptop Gateway</string>
+    <string name="laptop2">Laptop Lenovo Ideapad</string>
+    <string name="laptop3">Laptop Hyundai Thinnote</string>
+    <string name="laptop4">Laptop Lenovo Thinnote</string>
+    <string name="price1">$2,100</string>
+    <string name="price2">$2,400</string>
+    <string name="price3">$2,500</string>
+    <string name="price4">$2,300</string>
+    <string name="price5">$540</string>
+    <string name="price6">$100</string>
+    <string name="price7">$650</string>
+    <string name="price8">$500</string>
+    <string name="label1">Suggested for you</string>
+    <string name="label2">View all</string>
+    <string name="acce1">Apple Magic Keyboard - keyboard and folio case</string>
+    <string name="acce2">Logitech MX Vertical - vertical mouse</string>
+    <string name="acce3">InFocus Camera and Microphone Array</string>
+    <string name="acce4">Apple Magic Keyboard - keyboard</string>
+
+
+
 </resources>

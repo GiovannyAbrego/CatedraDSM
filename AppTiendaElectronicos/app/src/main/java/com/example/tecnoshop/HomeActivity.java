@@ -17,4 +17,17 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
     }
+
+    public void Signoff(View view){
+        FirebaseAuth.getInstance().signOut();
+        Toast.makeText(this, "sesion cerrada correctamente", Toast.LENGTH_SHORT).show();
+
+        goToLogin();
+    }
+
+    private void goToLogin() {
+        Intent i = new Intent(this, LonginActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
+    }
 }

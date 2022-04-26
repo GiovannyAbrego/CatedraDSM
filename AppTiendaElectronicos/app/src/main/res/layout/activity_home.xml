@@ -77,6 +77,16 @@
             app:menu="@menu/menu"
             tools:ignore="BottomAppBar" />
 
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:onClick="Signoff"
+            android:text="Exit"
+            android:textAlignment="center"
+            android:textSize="7dp" />
+
 
     </RelativeLayout>
 

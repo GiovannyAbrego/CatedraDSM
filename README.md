@@ -1,5 +1,6 @@
 # Proyecto de cátedra
 Desarrollo de una aplicación para una tienda de productos electronicos.
+Avance 50%
 # Integrantes
 Grupo: **02T**  
 AH132090 - Giovanny Misael Abrego Herrera  
